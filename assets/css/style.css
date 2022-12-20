@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bio {
+    background: linear-gradient(144.69deg, #E58C8A 0%, #E9BCB7 100%);
+    padding: 100px 150px 50px;
+    text-align: center;
+    box-shadow: 1px 6px 19px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 1px 6px 19px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 6px 19px 0px rgba(0,0,0,0.15);
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    background-image: url('../img/profile-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.bio-description {
+    color: #fff;
+}
+
+.bio-description h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.bio-description h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.bio-description p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.bio-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.link-icons {
+    width: 50px;
+}
+
+.projects {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.title {
+    padding: 20px 100px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.project {
+    display: flex;
+    width: 100%;
+    padding: 20px 100px;
+    border-bottom: 1px solid black;
+}
+
+.col1 {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.col2 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.col2 img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 768px) {
+
+    .bio {
+        padding: 100px 50px 50px;
+    }
+
+    .title {
+        padding: 20px 50px;
+    }
+
+    .project {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bio {
+        padding: 40px 20px 30px;
+    }
+
+    .title {
+        padding: 20px 20px;
+    }
+
+    .project {
+        padding: 20px 20px;
+    }
+
+    .link-icons {
+        width: 46px;
+    }
+}
